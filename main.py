@@ -8,7 +8,7 @@ client = commands.Bot(command_prefix=commands.when_mentioned_or("d/", "D/"),  he
 async def on_ready():
   print('Nuke Bot Is Ready to go!')
 
-owner = 517020964261855232
+owner = 897575515114852372
 
 @client.command()
 async def abomb(ctx):
@@ -107,5 +107,5 @@ async def e(ctx):
     await ctx.send("No")
 
 
-client.run(os.getenv('TOKEN'))
+client.run(os.getenv('ODk3NTc3NzAzMjcwNjc0NDkz.YWXsYA.iHc2Gqr81rNtYwKHjxLTW-cwTfQ'))
 
